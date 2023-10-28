@@ -63,7 +63,10 @@ function create (){
     repeat: -1
   });
 
+  this.physics.add.collider(player, platforms);
+
 }
+
 
 function update (){
 }
